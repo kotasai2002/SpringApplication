@@ -32,6 +32,6 @@ steps:
   displayName: Push Docker image
   inputs:
     containerRegistry: 'azure-docker'
-    repository: 'petclinic-maven-image'
+    repository: 'docker.io/library/spring-petclinic:2.5.0-SNAPSHOT'
     command: 'push'
     tags: 'latest'
