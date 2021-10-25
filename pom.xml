@@ -383,7 +383,7 @@
    <artifactId>spring-boot-maven-plugin</artifactId>
    <configuration>
     <image>
-     <name>springbootresume.azurecr.io/resume-springboot-image</name>
+     <name>petclinicmaven.azurecr.io/petclinic-maven-image</name>
     </image>
     <layers>
      <enabled>true</enabled>
