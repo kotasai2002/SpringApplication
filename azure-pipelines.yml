@@ -26,7 +26,7 @@ steps:
   inputs:
     mavenPomFile: 'pom.xml'
     repositary: 'petclinic-maven-image'
-    command: build
+    command: 'build'
     goals: 'spring-boot:build-image'
     publishJUnitResults: false
     jdkVersionOption: '1.8'
