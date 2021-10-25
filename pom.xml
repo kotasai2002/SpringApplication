@@ -383,7 +383,7 @@
    <artifactId>spring-boot-maven-plugin</artifactId>
    <configuration>
     <image>
-     <name>petclinicmaven.azurecr.io/docker.io/library/spring-petclinic:2.5.0-SNAPSHOT</name>
+     <name>petclinicmaven.azurecr.io/petclinic-maven-image</name>
     </image>
     <layers>
      <enabled>true</enabled>
