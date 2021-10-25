@@ -25,6 +25,8 @@ steps:
   displayName: Build Docker image
   inputs:
     mavenPomFile: 'pom.xml'
+    repositary: 'petclinic-maven-image'
+    command: build
     goals: 'spring-boot:build-image'
     publishJUnitResults: false
     jdkVersionOption: '1.8'
@@ -32,6 +34,6 @@ steps:
   displayName: Push Docker image
   inputs:
     containerRegistry: 'azure-docker'
-    repository: 'docker.io/library/spring-petclinic:2.5.0-SNAPSHOT'
+    repository: 'petclinic-maven-image'
     command: 'push'
     tags: 'latest'
